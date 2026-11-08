@@ -49,6 +49,17 @@ The **Decision Tree classifier** achieved the highest overall performance, with:
 - F1-score: **0.9733**
 - MCC: **0.9507**
 
+## Observations on Model Performance
+
+| ML Model Name | Observation about Model Performance |
+|---|---|
+| **Logistic Regression** | Achieved 86.27% accuracy and an F1-score of 0.8586. It provided good baseline performance with high recall (90.43%), but lower precision than the best-performing models. |
+| **Decision Tree** | Achieved the highest accuracy of 97.55%, F1-score of 0.9733 and MCC of 0.9507. It made only 5 incorrect predictions out of 204 test records. |
+| **kNN** | Achieved 89.71% accuracy and an F1-score of 0.8865. It performed better than Logistic Regression and Naive Bayes but below SVM and Decision Tree. |
+| **Naive Bayes** | Achieved 84.31% accuracy and an F1-score of 0.8384. It showed reasonable recall (88.30%) but had the lowest overall performance among the five models. |
+| **Support Vector Machine** | Achieved 92.65% accuracy, an AUC of 0.9732 and an F1-score of 0.9215. It was the second-best model overall. |
+| **Overall, Winner for Your Dataset?** | **Decision Tree** was the winner because it achieved the highest Accuracy (97.55%), AUC (0.9750), Precision (0.9785), Recall (0.9681), F1-score (0.9733) and MCC (0.9507). |
+
 These results were obtained on a held-out test set of 204 records.
 
 ## Streamlit Application
