@@ -105,7 +105,7 @@ python -m streamlit run app.py
 
 ## Project Links
 **Live Streamlit Application:** https://ga7v3aub5gxcxdr5mxfsxz.streamlit.app/
-
+**Git Repository Link:** https://github.com/amanchaudhur/Heart_Disease_ML_Assignment
 ## Conclusion
 
 This project demonstrates an end-to-end machine learning classification workflow for heart disease prediction. Five models were trained and evaluated using six performance metrics.
