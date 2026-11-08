@@ -104,7 +104,7 @@ python -m streamlit run app.py
 
 
 ## Project Links
-**Live Streamlit Application:** Add your deployed Streamlit URL here.
+**Live Streamlit Application:** https://ga7v3aub5gxcxdr5mxfsxz.streamlit.app/
 
 ## Conclusion
 
